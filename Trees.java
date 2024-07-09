@@ -294,7 +294,7 @@ public class Trees {
     }
     // given a binary search tree delete a val in the tree
 
-    public TreeNode delete(TreeNode A, int B) {
+    public static TreeNode delete(TreeNode A, int B) {
         if (A == null)
             return null;
         if (A.data < B) {
@@ -387,6 +387,6 @@ public class Trees {
         // root.right.left = new TreeNode(6);
         // root.right.right = new TreeNode(8);
         // root.right.left = new TreeNode(1);
-        System.out.println(delete(root));
+            System.out.println(delete(root, 0));
     }
 }
